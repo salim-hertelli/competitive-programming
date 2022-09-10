@@ -1,0 +1,4 @@
+#!/bin/bash
+make $1
+echo  "--------------------------------------------------"
+./build/$1 < input.txt | tee output.txt
