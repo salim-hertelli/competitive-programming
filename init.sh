@@ -18,7 +18,7 @@ mkdir $1/build
 for x in ${@:2}
 do
     cp template.cpp $1/$x.cpp
-    printf "$x: $x.cpp\n\tg++-10 --std=c++20 -Wall -Wextra -O2 -g $x.cpp -o build/$x\n\n" >> $1/Makefile
+    printf "$x: $x.cpp\n\tg++ --std=c++20 -Wall -Wextra -O2 -g $x.cpp -o build/$x\n\n" >> $1/Makefile
 done
 
 # run script

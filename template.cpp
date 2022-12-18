@@ -25,7 +25,7 @@ ll pwr(ll x, ll n);
 
 // ii mvt[4]={{1,0},{0,1},{0,-1},{-1,0}};
 
-void solve()
+void solve(int testcase)
 {
     
 }
@@ -43,9 +43,8 @@ int main()
 
     int tests = 1;
     cin >> tests;
-    while (tests--)
-    {
-        solve();
+    for(auto testcase = 0; testcase < tests; testcase ++){
+        solve(testcase);
     }
 
     /*cerr << "time taken : " << (float)clock() / CLOCKS_PER_SEC << " secs"
