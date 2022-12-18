@@ -27,7 +27,7 @@ ll pwr(ll x, ll n);
 
 void solve(int testcase)
 {
-    
+    (void) testcase;
 }
 
 int main()
